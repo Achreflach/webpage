@@ -4,16 +4,28 @@
 <head>
   <title> Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <header class="z">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="z" id="home">
     <div id="w">
       <a name="w"></a>
-      <nav>
+      <nav class="nav">
         <ul>
-          <li class="navbar"><A style="color: darkseagreen;background-color: black;background-color: ;" href="#Home">Home</A></li>
-          <li class="navbar"><a style="color: darkseagreen;background-color: black;background-color: ;" href="">ABOUT</a></li>
-          <li class="navbar"><A style="color: darkseagreen;background-color: black;background-color: ;" href="video">Video</A></li>
-          <li class="navbar"><A style="color: darkseagreen;background-color: black;background-color: ;" href="imgsize">RESUME</A></li>
-          <li class="navbar"><A style="color: darkseagreen;background-color: black;background-color: ;" href="#form">form</A></li>
+          <li class="navbar"><a style="color: darkseagreen;background-color: black;background-color: ;"
+              href="#home">Home</a></li>
+          <li class="navbar"><a style="color: darkseagreen;background-color: black;background-color: ;"
+              href="#about">About</a></li>
+          <li class="navbar"><a style="color: darkseagreen;background-color: black;background-color: ;"
+              href="#work">Work</a></li>
+          <li class="navbar"><a style="color: darkseagreen;background-color: black;background-color: ;"
+              href="#resume">Resume</a></li>
+          <li class="navbar"><a style="color: darkseagreen;background-color: black;background-color: ;"
+              href="#contact">Contact</a></li>
         </ul>
 
       </nav>
@@ -23,54 +35,47 @@
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-<body>
-  </div>
-
-  <div class="achref">
+  <div class="achref" id="about">
     <h2><i> Achref Bouzgarrou</i></h2>
     <p> NZFJZNFNZFJZKNZNKZ</p>
   </div>
   <br><br><br><br><br><br>
 
-  <div name="#video">
+  <div id="work">
     <p>here is your guide <a href="http://www.gomycode.tn"></a> </p>
     <!--Video source-->
-    <video width="360" height="240" autoplay>
+    <video width="360" height="240" autoplay muted loop controls>
       <source src="test.mp4" type="video/mp4">
       <source src="test.mp4" type="video/ogg">
       <video loop>
         Your browser does not support the video tag.
       </video>
       <!--Video source-->
-
-
   </div>
-  <SECtion>
-    <h1>TABLE SECTION</h1>
+
+  <section id="resume">
+    <h1>RESUME SECTION</h1>
     <!-- Table-->
     <table border="4">
       <tr>
         <th>HTML</Th>
         <th>CSS</Th>
         <th>JS</Th>
-      </Tr>
-      <TR>
+      </tr>
+      <tr>
         <td>paragraphs</td>
         <td>selectors</td>
         <td>dom</td>
-      </TR>
-      <TR>
+      </tr>
+      <tr>
         <td>tables</td>
         <td>styles</td>
         <td>elements</td>
-      </TR>
+      </tr>
 
     </table>
     <!-- Table-->
-  </SECtion>
-
-
-
+  </section>
   <br /><br><br><br><br><br><br><br><br><br>
 
   <!--Image source-->
@@ -78,17 +83,19 @@
   <!--Image source--><BR><BR></BR></BR>
   <a href="w"></a>
 
-  <section id="form">
-    <h1>FORM SECTION</h1>
-    <FORM>
-      <LABEl>NAME</LABEl>
+  <section id="contact">
+    <h1>CONTACT SECTION</h1>
+    <form>
+      <label>NAME</label>
       <input type="text" name="firstname" placeholder="ekteb esmek">
       <br><br>
-      <LABel>number:</LABel>
-      <input type="number" </FORM>
+      <label>number:</label>
+      <input type="number" />
+    </form>
   </section>
 
   <br><br><br><br>
+
   <footer>
 
     <h1><a href="https://www.w3schools.com/" target="_blank"> CLICK HERE</a></h1>

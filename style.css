@@ -1,11 +1,21 @@
 body {
     background-color: blanchedalmond;
-color: blue;
+    color: blue;
     font-family: "Roboto", sans-serif;
-    
-    }
-    nav {
-        width: 50cm;
-         min-width: 50px;
-         border: 6px solid red;
-    }
+
+}
+
+.nav {
+    min-width: 50px;
+    border: 6px solid red;
+}
+
+.navbar {
+    display: inline;
+}
+
+.imgsize {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
